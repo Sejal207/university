@@ -144,7 +144,7 @@ p{
 .course_col{
     display: block;
     flex-basis: 31%;
-    background-image: linear-gradient(to bottom right, #a6a6a6, rgb(97, 93, 93));
+    background-image: linear-gradient(to bottom right, #f44336, #b52f25);
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px;
@@ -153,6 +153,7 @@ p{
     justify-content: center;
 }
 .course_col ul li{
+    color:white;
     list-style: none;
     font-size: 18px;
     padding: 5px 2px;
@@ -160,6 +161,7 @@ p{
     justify-content: center;
 }
 .course_col h3{
+    color: #fff;
     font-size: 32px;
     text-align: center;
     font-weight: 600;
@@ -174,9 +176,7 @@ p{
     .row{
         flex-direction: column;
     }
-    .course_col:hover{
-        border-radius: 50%;
-    }
+    
     .alliance_col img{
         
         margin-left: 0px;
